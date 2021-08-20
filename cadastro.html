@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nome do Projeto</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerbox">
+            <nav class="navBox">
+              <ul class="listBox">
+                <li class="buttonList"><a href="index.html" class="buttonLink">Página Inicial</a></li>
+                <li class="buttonList"><a href="cursos.html" class="buttonLink">Cursos</a></li>
+                <li class="buttonList"><a href="cadastro.html" class="buttonLink">Cadastro</a></li>
+              </ul>
+            </nav>
+          </div>
+        <section class="section-container section-background-one">
+            <img src="assets/logo.png" alt="logo">
+        </section>
+    
+    </header>
+
+    <main class="formMain section-background-two">
+        <p>Campos com * são obrigatórios.</p>
+        <form action="" class="formulario">
+    
+          <label for="inputText" class="inputLabel">*Nome Completo</label>
+          <input type="text" placeholder="Nome Completo" required class="inputDisplay" id="inputText">
+
+          <label for="inputEmail" class="inputLabel">*Email</label>
+          <input type="email" placeholder="seuemail@dominio.com" required class="inputDisplay" id="inputEmail">
+    
+          <label for="inputFone" class="inputLabel">*Telefone</label>
+          <input type="tel" placeholder="(XX) XXXXX-XXXX" required class="inputDisplay" id="inputFone">
+    
+          <fieldset class="selectDiv">
+            <legend class="selectTitle">*Qual a sua escolaridade?</legend>
+            <select name="" id="" class="selectBox">
+              <option value="" class="selectOption">Ensino Médio Incompleto</option>
+              <option value="" class="selectOption">Ensino Médio Completo</option>
+              <option value="" class="selectOption">Ensino Superior Incompleto</option>
+              <option value="" class="selectOption">Ensino Superior Completo</option>
+            </select>
+          </fieldset>
+
+          <label for="inputText" class="inputLabel">Se possui alguma graduação em ensino técnico, informe o curso, duração e instituição:</label>
+          <input type="text" placeholder="Curso" required class="inputDisplay" id="inputText">
+          <input type="text" placeholder="Duração" required class="inputDisplay" id="inputText">
+          <input type="text" placeholder="Instituição" required class="inputDisplay" id="inputText">
+
+          <label for="inputText" class="inputLabel">Se possui graduação no ensino superior, informe o curso, instituição e ano de término:</label>
+          <input type="text" placeholder="Curso" required class="inputDisplay" id="inputText">
+          <input type="text" placeholder="Instituição" required class="inputDisplay" id="inputText">
+          <input type="text" placeholder="Ano de término" required class="inputDisplay" id="inputText">
+
+          <label for="textArea" class="inputLabel">*Descreva abaixo o que você identifica como suas competências:</label>
+          <textarea name="" id="textArea" cols="30" rows="5" required class="textArea"></textarea>
+
+          <label for="textArea" class="inputLabel">*Informe outras atividades extracurriculares que você desenvolveu:</label>
+          <textarea name="" id="textArea" cols="30" rows="5" required class="textArea"></textarea>
+          
+          <fieldset class="radioBox">
+            <legend class="radioTitle">*Como gostaria de receber nosso contato?</legend>
+    
+            <label for="radioZap" class="radioLabel"> <input type="radio" name="contato" value="Whatsapp" class="radioZap"
+                id="radioZap" checked> Whatsapp</label>
+    
+            <label for="radioEmail" class="radioLabel"><input type="radio" name="contato" value="Email" class="radioEmail"
+                id="radioEmail"> Email</label>
+          </fieldset>
+    
+          <label for="checkBox" class="checkBoxLabel"> <input type="checkbox" id="checkBox" class="checkBox"> Gostaria de
+            receber nossas novidades por email?</label>
+    
+          <input type="submit" value="Cadastrar-se" required class="inputSubmit inputSubmitSize" id="buttonSubmit">
+    
+        </form>
+        </main>
+        <footer>
+            <strong>
+            <p class="footerDescription">&copy Equipe Monique Evelle - Inova.Camp Afro</p>
+            </strong>
+            
+        </footer> 
+ </body>
