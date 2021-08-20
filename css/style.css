@@ -146,7 +146,7 @@ html {
 
 .imgBoxx img{
     max-width: 900px;
-    align-items: center;
+    align-items: left;
 }
 
 .textBoxx{
